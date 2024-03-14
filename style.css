@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+header img {
+  height: 33px;
+  width: auto;
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 0;
+  box-shadow: -6px 8px 21px 1px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: -6px 8px 21px 1px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -6px 8px 21px 1px rgba(0, 0, 0, 0.26);
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 252px;
+  align-items: center;
+  color: #ababab;
+  font-size: 15px;
+  font-weight: 450;
+  position: absolute;
+  cursor: pointer;
+}
+.drop-menu {
+  display: none;
+}
+
+.menu-item:hover {
+  color: #00b39b;
+  transition: 0.5s;
+}
+header nav {
+  height: 100%;
+  width: 252px;
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 0 0;
+  justify-content: space-evenly;
+  height: 220px;
+  width: 220px;
+  margin-left: -100px;
+  margin-top: 3px;
+  box-shadow: -6px 8px 21px 1px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: -6px 8px 21px 1px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -6px 8px 21px 1px rgba(0, 0, 0, 0.26);
+}
+.drop-menu {
+  display: none;
+  position: absolute;
+  color: #ababab;
+  background: #ffff;
+  transition: 0.5s;
+}
+.drop-menu-item {
+  line-height: 18px;
+  font-size: 15px;
+  text-align: left;
+  height: 42px;
+  width: 220px;
+  background-color: #ababab62;
+  transition: 0.5s;
+  padding: 12px 16px 12px 16px;
+}
+.drop-menu-item:hover {
+  color: #00b39b;
+  background-color: #ababab62;
+}
+main {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 309px;
+  width: 70%;
+}
+#intro img {
+  width: 40px;
+  height: auto;
+}
+#intro h1 {
+  font-family: "Work Sans " Arial, Helvetica, sans-serif;
+  color: #00b39b;
+  font-size: 34px;
+  font-weight: lighter;
+}
+.para-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.para-cont p {
+  margin: 13px 0 13px 0;
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  height: 112px;
+  width: 46%;
+  color: #747474;
+  ;
+}
+.cards{
+  height: 345px;
+  width: 312px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:32px 32px 0 32px;
+  color: white;
+}
+.cards img{
+  height: 24px;
+  width: 24px;
+  margin-bottom: 5px;
+}
+.cards-contrainer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+.green{
+  background: #00b39b;
+}
+.blue
+{
+  background: #3d83df ;
+}
+.black
+{
+  background: #1b2743
+}
+
+.cards h4{
+  margin-top: -95px;
+  font-family: "Work Sans"Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 34px;
+  
+  
+}
+.cards p{
+  
+  font-family: "Work Sans"Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  height: 87px;
+  width: 248px;
+  margin-top: -100px;
+}
+
+.cards select{
+  border: none;
+  background: #00574b00;
+font-family: "Roboto"Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 19px;
+  text-decoration: underline;
+  cursor: pointer;
+  line-height: 25px;
+ margin-bottom: 35px;
+}
+.salem{
+  margin-bottom: 15px;
+}
+.black h4{
+margin-top:-30px;
+}
+.black p {
+  margin-top: -35px;
+}
+.cards select option{
+color: black;
+}
+.logo-container svg{
+fill: #747474;
+height: 45px;
+width:165px;
+margin: 5px;
+}
+.logo-container svg:hover{
+  fill:#00b39b;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.logo-container img:hover{
+  filter: grayscale(0%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.logo-container img {
+  filter: grayscale(100%);
+  width: auto;
+  height: 35px;
+  margin: 5px;
+}
+.logo-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+width: 70%;
+}
+.sponsors{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 40px 0;
+
+
+}
+.sponsors h2{
+  font-family: "Work Sans"Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  width: 200px;
+  color:#00b39b;
+font-weight:300;
+line-height: 33px;
+margin:7px 10 9px 0;
+
+}
